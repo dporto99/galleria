@@ -1,0 +1,76 @@
+div#inner {
+  height: auto; }
+
+div#content {
+  width: 720px;
+  float: left;
+  font-family: verdana, helvetica, sans serif;
+  font-size: 16px;
+  color: white;
+  text-align: justify; }
+
+div#urltext {
+  font-family:verdana, helvetica, sans serif;
+  font-size:30px; }
+
+div#content div#titlebar {
+  border: 1px solid #222222;
+  background: #000;
+  font-weight: normal;
+  color:  #ff7c11; }
+
+div#content {
+  margin-left:0;
+  padding-right:8px; }
+
+div.menu {
+  position: fixed;
+  width: 210px;
+  float: left;
+  text-align: right; }
+
+div.menu .menu-item {
+  height: 40px; }
+
+div#home, div#events, div#bio, div#gallery, div#text5, div#text6, div#email {
+  font-family:verdana, helvetica, sans serif;
+  position:relative;
+  top: 0;
+  left: 0;
+  font-size:29px;
+}
+
+.titleblock {
+  font-family:verdana, helvetica, sans serif;
+  font-size:12px;
+  color:#ff7c11;
+  font-weight:;
+  margin-right:6px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:2px;
+  border:1px solid #222;
+  padding:4px; }
+
+.titleblock span {
+  color:#ff7c11; }
+
+div#home a:link, div#events a:link,
+div#bio a:link, div#gallery a:link,
+div#text5 a:link, div#text6 a:link,
+div#email a:link, #urltext a:link {
+  color:#444; }
+div#home a:visited, div#events a:visited,
+div#bio a:visited, div#gallery a:visited,
+div#text5 a:visited, div#text6 a:visited,
+div#email a:visited, #urltext a:visited {
+  color:#444; }
+div#home a:hover, div#events a:hover,
+div#bio a:hover, div#gallery a:hover,
+div#text5 a:hover, div#text6 a:hover,
+div#email a:hover, #urltext a:hover {
+  color:#444; }
+div#home a:active, div#events a:active,
+div#bio a:active, div#gallery a:active,
+div#text5 a:active, div#text6 a:active,
+div#email a:active, #urltext a:active {color:#444}

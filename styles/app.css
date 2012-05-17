@@ -1,0 +1,136 @@
+body {
+  background:#000;
+  margin:0; }
+
+.container {
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+#outer {
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+#inner {
+  position: absolute;
+  width: 950px;
+  height: 300px;
+  outline: 1px solid red; }
+	 
+.bgtext {
+  font-size: 155px;
+  position: absolute;
+  top: 50px;
+  left: -110px;
+  right: -80px; }
+
+.bgtext, .footertext {
+  cursor: default;
+  color:#222;
+  font-family:verdana, helvetica, sans serif; }
+		 
+.footertext {
+  font-size:12px;
+  position:absolute;
+  top:320px;
+  text-align:center;
+  width:500px; }
+
+div#home, div#events, div#bio, div#gallery, div#text5, div#text6, div#email {
+  color:#222222;
+  font-family:verdana, helvetica, sans serif;
+  position:absolute; }
+
+div#home {
+  font-size:29px;
+  top:6px;
+  left:0px;}
+
+div#events {
+  font-size:60px;
+  top: 46px;
+  left: 80px; }
+
+div#bio {
+  font-size: 35px;
+  top: 60px;
+  left: 500px; }
+
+div#gallery {
+  font-size: 50px;
+  top: 200px;
+  left: 200px; }
+		
+div#text5 {
+  font-size: 39px;
+  top: 200px;
+  left: 415px; }
+		
+div#text6 {
+  font-size: 45px;
+  top: -5px;
+  left: 668px; }
+		
+div#email {
+  font-size:28px;
+  top:254px;
+  left: 680px; }
+
+div#home a:hover span {
+  top: -3px;
+  left: 0px; }
+
+div#events a:hover span {
+  top: -10px;
+  left: 0px; }
+						
+div#bio a:hover span {
+  top: -4px;
+  left: 0px; }
+
+div#gallery a:hover span {
+  top: -6px;
+  left: 0px; }
+		
+div#text5 a:hover span {
+  top: -6px;
+  left: 0px;}
+
+div#text6 a:hover span {
+  top: -4px;
+  left: 0px; }
+
+div#email a:hover span {
+  top: -4px;
+  left: 0px; }
+
+div#inner a:hover, div#inner2 a:hover {
+  background: none;
+  cursor: pointer; }
+
+div#inner a span { display: none;}
+
+div#inner a:visited span { display:none;}
+
+div#inner a {
+  text-decoration: none;
+  color:white; }
+
+div#inner a:hover span {
+  display: block;
+  position: relative;
+  background: none;
+  font-size: 14px; }
+
+div#inner a:link, div#inner a:visited {
+  text-decoration: none; }
+
+div#inner a:hover {
+  text-decoration: none; }
+
+div#urltext, div#inner a:hover,
+div#inner a:hover span {
+  color:#ff7c11; }
