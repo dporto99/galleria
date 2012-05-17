@@ -1,43 +1,81 @@
-div#inner {
-  height: auto; }
-
 div#content {
-  width: 720px;
-  float: left;
+  position:absolute;
+  top:-50px;
+  left:-70px;
+  width:635px;
+  height: 400px;
+  overflow: auto;
   font-family: verdana, helvetica, sans serif;
-  font-size: 16px;
-  color: white;
-  text-align: justify; }
+  font-size: 13px;
+  color:white;
+  text-align:justify;
+  margin:3px;
+}
+
+div#inner div#content a:hover {
+  text-decoration:underline;
+}
+
+div#close, div#top {
+  width:17px;
+  height:17px;
+  background:none;
+  text-align:center;
+  font-family:verdana, helvetica, sans serif;
+  font-weight:bold;
+  font-size:12px;
+  border: 1px solid #222;
+}
+
+div#top {
+  position:relative;
+  left:573px;
+  top:319px;
+}
+
+div#close {
+  position:relative;
+  left:573px;
+  top:-47px;
+}
+
+div#inner div#close a:link, div#inner div#top a:link {
+  color:#fff;
+  cursor:default;
+}
+
+div#inner div#close a:visited, div#inner div#top a:visited {
+  color:#fff;
+  cursor:default;
+}
+
+div#inner div#close a:hover, div#inner div#top a:hover {
+  color:#fff;
+  cursor:default;
+}
 
 div#urltext {
   font-family:verdana, helvetica, sans serif;
-  font-size:30px; }
+  font-size:30px;
+  position:absolute;
+  top:-87px;
+  left:-69px;
+}
+
+div#urltext, div#inner div#content a:link, div#inner div#content a:visited, div#inner a:hover, div#inner a:hover span {
+  color:#ff7c11;
+}
 
 div#content div#titlebar {
   border: 1px solid #222222;
   background: #000;
   font-weight: normal;
-  color:  #ff7c11; }
+  color:  #ff7c11;
+}
 
 div#content {
   margin-left:0;
-  padding-right:8px; }
-
-div.menu {
-  position: fixed;
-  width: 210px;
-  float: left;
-  text-align: right; }
-
-div.menu .menu-item {
-  height: 40px; }
-
-div#home, div#events, div#bio, div#gallery, div#text5, div#text6, div#email {
-  font-family:verdana, helvetica, sans serif;
-  position:relative;
-  top: 0;
-  left: 0;
-  font-size:29px;
+  padding-right:8px;
 }
 
 .titleblock {
@@ -50,27 +88,25 @@ div#home, div#events, div#bio, div#gallery, div#text5, div#text6, div#email {
   margin-bottom:10px;
   margin-left:2px;
   border:1px solid #222;
-  padding:4px; }
+  padding:4px;
+}
 
 .titleblock span {
-  color:#ff7c11; }
+  color:#ff7c11;
+}
 
-div#home a:link, div#events a:link,
-div#bio a:link, div#gallery a:link,
-div#text5 a:link, div#text6 a:link,
-div#email a:link, #urltext a:link {
-  color:#444; }
-div#home a:visited, div#events a:visited,
-div#bio a:visited, div#gallery a:visited,
-div#text5 a:visited, div#text6 a:visited,
-div#email a:visited, #urltext a:visited {
-  color:#444; }
-div#home a:hover, div#events a:hover,
-div#bio a:hover, div#gallery a:hover,
-div#text5 a:hover, div#text6 a:hover,
-div#email a:hover, #urltext a:hover {
-  color:#444; }
-div#home a:active, div#events a:active,
-div#bio a:active, div#gallery a:active,
-div#text5 a:active, div#text6 a:active,
-div#email a:active, #urltext a:active {color:#444}
+#urltext a:link {
+  color:#444;
+}
+
+#urltext a:visited {
+  color:#444;
+}
+
+#urltext a:hover {
+  color:#444;
+}
+
+#urltext a:active {
+  color:#444;
+}
