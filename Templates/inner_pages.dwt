@@ -4,7 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<!-- TemplateBeginEditable name="doctitle" -->
-	<title>Juan Francisco | Home</title>
 	<!-- TemplateEndEditable -->
 	<link rel="stylesheet" type="text/css" href="../styles/global.css" />
 	<link rel="stylesheet" type="text/css" href="../styles/template.css" />
@@ -14,35 +13,28 @@
 <body>
 <div id="container">
   <ul id="inner">
-
+	<li><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></li>
     <li id="text1">
       <a href="#">home<label for="text1">&raquo;the main bit, where stuff happens.</label>
-      </a>
-    </li>
+      </a>    </li>
     <li id="text2">
       <a href="#">stuff<label for="text2">&raquo;wow, that titles pretty large. you can change all of that in the stylesheet.</label>
-      </a>
-    </li>
+      </a>    </li>
     <li id="text3">
       <a href="#">archives<label for="text3">&raquo;It's all done in CSS, too.</label>
-      </a>
-    </li>
+      </a>    </li>
     <li id="text4">
       <a href="#">gallery<label for="text4">&raquo;put another thing here</label>
-      </a>
-    </li>
+      </a>    </li>
     <li id="text5">
       <a href="#">headliners<label for="text5">&raquo;sub text. you can put it here.</label>
-      </a>
-    </li>
+      </a>    </li>
     <li id="text6">
       <a href="#">opinion time<label for="text6">&raquo;isnt it nice how this text just appears?</label>
-      </a>
-    </li>
+      </a>    </li>
     <li id="text7">
       <a href="mailto:froggyb[at]gmail[dot]com">contact us<label for="text7">&raquo;complain or make suggestions here</label>
-      </a>
-    </li>
+      </a>    </li>
   </ul>
 </div>
 
